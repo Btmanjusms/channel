@@ -1,8 +1,4 @@
-# Channel Automation Bot [@KGN_CHANNEL_MANAGER_BOT](https://t.me/KGN_CHANNEL_MANAGER_BOT)
 
-> A star ⭐ from you means a lot to us!
-
-<p align="center"><a href="https://github.com/KGN-BOTS/Auto-Channel-Bot"><img src="https://telegra.ph/file/c54625bd6a4e08ffdb742.jpg" width="2000"></a></p>
 
 Telegram bot to automate and manage channels.
 
