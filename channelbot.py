@@ -16,9 +16,9 @@ if Config.REPLIT:
 
     from flask import Flask, jsonify
     
-    app = Flask('')
+    web_app = Flask('')
     
-    @app.route('/')
+    @web_app.route('/')
     def main():
         res = {
             "status":"running",
@@ -28,7 +28,7 @@ if Config.REPLIT:
         return jsonify(res)
 
     def run():
-      app.run(host="0.0.0.0", port=8000)
+      web_app.run(host="0.0.0.0", port=8000)
     
     async def keep_alive():
       server = Thread(target=run)
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
     if Config.REPLIT:
         asyncio.run(keep_alive())
-        
+
     print(f"@{uname} Started Successfully!")
     idle()
     app.stop()
