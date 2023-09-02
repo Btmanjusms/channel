@@ -19,7 +19,7 @@ else:
     # Fill the Values
     API_ID = 8813038
     API_HASH = "780fd96b159baa710dada78ff1621b54"
-    BOT_TOKEN = "5309009886:AAEZfnEgYzJ9PKAQ-PT2u-_dg8Zw5ZpXMX4"
+    BOT_TOKEN = "5833627856:AAFp3yWfj2ExBSAY7ko_0y-hIJe0AZ1655w"
     DATABASE_URL = "mongodb+srv://abcd:abcd@cluster0.tmlr4rn.mongodb.net/?retryWrites=true&w=majority"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = ""
