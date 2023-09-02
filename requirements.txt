@@ -1,5 +1,5 @@
 pyrogram~=2.0.57
-TgCrypto
-motor
-dnspython
+TgCrypto~=1.2.5
+motor~=3.3.1
+dnspython~=2.4.2
 https://github.com/Ns-AnoNymouS/pyromod/archive/refs/heads/master.zip
