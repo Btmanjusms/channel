@@ -20,7 +20,7 @@ else:
     API_ID = 8813038
     API_HASH = "780fd96b159baa710dada78ff1621b54"
     BOT_TOKEN = "5833627856:AAFp3yWfj2ExBSAY7ko_0y-hIJe0AZ1655w"
-    DATABASE_URL = "mongodb+srv://abcd:abcd@cluster0.qirokuf.mongodb.net/?retryWrites=true&w=majority"
+    DATABASE_URL = "postgres://pvsrfrxr:Mi26RmeIVN_8ox_RdHy5RLjkw4NCK7Bv@mouse.db.elephantsql.com/pvsrfrxr"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = ""
     if MUST_JOIN.startswith("@"):
